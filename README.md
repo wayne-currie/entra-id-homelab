@@ -192,10 +192,10 @@ Successfully joined the local Windows 11 machine to the Azure-hosted domain thro
 **Pinging Domain Name from Windows 11 (homelab.local):**
 Although I was able to ping the IP address of the Domain Controller, I was not able to ping the domain. Powershell was used to configure DNS via PowerShell
 ```bash
-# First, let's see your VPN interface details
+# See VPN interface details
 Get-NetAdapter | Where-Object {$_.Name -like "*p2s*"}
 
-# Set DNS to your DC (replace YOUR_DC_IP with actual IP)
+# Set DNS to DC
 Set-DnsClientServerAddress -InterfaceAlias "p2sVPN-VNet1" -ServerAddresses "10.0.0.4"
 
 # Verify it worked
