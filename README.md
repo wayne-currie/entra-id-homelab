@@ -24,6 +24,6 @@ I configured the Windows Server 2022 instance as a Domain Controller to manage a
 <img width="1877" height="722" alt="image" src="https://github.com/user-attachments/assets/4920f984-aeb5-4398-ac98-9e548ccc2e19" />
 
 ---
-### 3. Connect Windows 11 Host to Domain using site-to-site VPN
+### 3. Connect Windows 11 Host to Domain using Point-to-site VPN
 
 
