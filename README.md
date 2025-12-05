@@ -1,6 +1,10 @@
 # Microsoft Entra ID Homelab in Azure
 > *Formerly known as Azure Active Directory*
 
+### Project Overview
+
+In this project, I built a hybrid Microsoft Entra ID environment (formerly Azure Active Directory) by deploying a Windows Server 2022 domain controller in Azure and connected my local Windows 11 virtual machine running in VMware to the domain through a Point‑to‑Site VPN.
+
 ---
 ## Project Steps
 
