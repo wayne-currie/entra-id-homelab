@@ -2,7 +2,7 @@
 
 ### Project Overview
 
-In this project, I built an Active Directory in Azure by deploying a Windows Server 2022 domain controller in Azure and connected my local Windows 11 virtual machine running in VMware to the domain through a Point‑to‑Site VPN.
+In this project, I built an Active Directory environment in Azure by deploying a Windows Server 2022 domain controller in Azure and connected my local Windows 11 virtual machine running in VMware to the domain through a Point‑to‑Site VPN.
 
 ---
 ## Project Steps
